@@ -1,0 +1,357 @@
+const h2h = {
+    "get": "fixtures",
+    "parameters": {
+        "team": "375",
+        "last": "5"
+    },
+    "errors": [],
+    "results": 5,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1001985,
+                "referee": "M. Al Hakim",
+                "timezone": "UTC",
+                "date": "2023-09-17T13:00:00+00:00",
+                "timestamp": 1694955600,
+                "periods": {
+                    "first": 1694955600,
+                    "second": 1694959200
+                },
+                "venue": {
+                    "id": 1506,
+                    "name": "Tele2 Arena",
+                    "city": "Stockholm"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 113,
+                "name": "Allsvenskan",
+                "country": "Sweden",
+                "logo": "https://media-4.api-sports.io/football/leagues/113.png",
+                "flag": "https://media-4.api-sports.io/flags/se.svg",
+                "season": 2023,
+                "round": "Regular Season - 23"
+            },
+            "teams": {
+                "home": {
+                    "id": 363,
+                    "name": "Hammarby FF",
+                    "logo": "https://media-4.api-sports.io/football/teams/363.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 375,
+                    "name": "Malmo FF",
+                    "logo": "https://media-4.api-sports.io/football/teams/375.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 3
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 3
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1001976,
+                "referee": "F. Klitte",
+                "timezone": "UTC",
+                "date": "2023-09-03T15:30:00+00:00",
+                "timestamp": 1693755000,
+                "periods": {
+                    "first": 1693755000,
+                    "second": 1693758600
+                },
+                "venue": {
+                    "id": 1518,
+                    "name": "Eleda Stadion",
+                    "city": "Malmö"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 113,
+                "name": "Allsvenskan",
+                "country": "Sweden",
+                "logo": "https://media-4.api-sports.io/football/leagues/113.png",
+                "flag": "https://media-4.api-sports.io/flags/se.svg",
+                "season": 2023,
+                "round": "Regular Season - 22"
+            },
+            "teams": {
+                "home": {
+                    "id": 375,
+                    "name": "Malmo FF",
+                    "logo": "https://media-4.api-sports.io/football/teams/375.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 366,
+                    "name": "IFK Goteborg",
+                    "logo": "https://media-4.api-sports.io/football/teams/366.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1001971,
+                "referee": "A. Ladebäck",
+                "timezone": "UTC",
+                "date": "2023-08-28T17:10:00+00:00",
+                "timestamp": 1693242600,
+                "periods": {
+                    "first": 1693242600,
+                    "second": 1693246200
+                },
+                "venue": {
+                    "id": 1524,
+                    "name": "Studenternas IP",
+                    "city": "Uppsala"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 113,
+                "name": "Allsvenskan",
+                "country": "Sweden",
+                "logo": "https://media-4.api-sports.io/football/leagues/113.png",
+                "flag": "https://media-4.api-sports.io/flags/se.svg",
+                "season": 2023,
+                "round": "Regular Season - 21"
+            },
+            "teams": {
+                "home": {
+                    "id": 370,
+                    "name": "Sirius",
+                    "logo": "https://media-4.api-sports.io/football/teams/370.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 375,
+                    "name": "Malmo FF",
+                    "logo": "https://media-4.api-sports.io/football/teams/375.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 3
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 3
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1052657,
+                "referee": "A. Johansson",
+                "timezone": "UTC",
+                "date": "2023-08-23T16:30:00+00:00",
+                "timestamp": 1692808200,
+                "periods": {
+                    "first": 1692808200,
+                    "second": 1692811800
+                },
+                "venue": {
+                    "id": 19411,
+                    "name": "PreZero Arena",
+                    "city": "Norrköping"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 115,
+                "name": "Svenska Cupen",
+                "country": "Sweden",
+                "logo": "https://media-4.api-sports.io/football/leagues/115.png",
+                "flag": "https://media-4.api-sports.io/flags/se.svg",
+                "season": 2023,
+                "round": "2nd Round"
+            },
+            "teams": {
+                "home": {
+                    "id": 12650,
+                    "name": "Smedby",
+                    "logo": "https://media-4.api-sports.io/football/teams/12650.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 375,
+                    "name": "Malmo FF",
+                    "logo": "https://media-4.api-sports.io/football/teams/375.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1001959,
+                "referee": "V. Wolf",
+                "timezone": "UTC",
+                "date": "2023-08-20T13:00:00+00:00",
+                "timestamp": 1692536400,
+                "periods": {
+                    "first": 1692536400,
+                    "second": 1692540000
+                },
+                "venue": {
+                    "id": 1518,
+                    "name": "Eleda Stadion",
+                    "city": "Malmö"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 113,
+                "name": "Allsvenskan",
+                "country": "Sweden",
+                "logo": "https://media-4.api-sports.io/football/leagues/113.png",
+                "flag": "https://media-4.api-sports.io/flags/se.svg",
+                "season": 2023,
+                "round": "Regular Season - 20"
+            },
+            "teams": {
+                "home": {
+                    "id": 375,
+                    "name": "Malmo FF",
+                    "logo": "https://media-4.api-sports.io/football/teams/375.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 364,
+                    "name": "Djurgardens IF",
+                    "logo": "https://media-4.api-sports.io/football/teams/364.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        }
+    ]
+};
+
+module.exports = { h2h };
