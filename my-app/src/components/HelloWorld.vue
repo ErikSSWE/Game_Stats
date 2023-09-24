@@ -20,10 +20,11 @@ let test = ref([]);
 async function setValues(team1, team2) {
   console.log("called!");
   test = await main_function(team1, team2);
-  //home.value = test[0];
-  //guests.value = test[1];
-  //searched.value = true;
-  //console.log(home.value);
+  home.value = test[0];
+  guests.value = test[1];
+  searched.value = true;
+  console.log(home.value);
+  console.log(guests.value);
   return
 }
 
