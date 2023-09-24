@@ -1,6 +1,8 @@
-const mff = require('./mock_data/mff');
-const h2h = require('./mock_data/last5h2h');
-const stats = require('./mock_data/game_stat');
+const liverpool_info = require('./save_data/team_liverpool.json');
+const wh_info = require('./save_data/team_west_ham.json');
+const h2h_info = require('./save_data/h2h_info.json');
+const h2h_game_info_liverpool = require('./save_data/h2h_game_info_liverpool.json');
+const h2h_game_info_wh = require('./save_data/h2h_game_info_west_ham.json');
 
 const express = require('express');
 var cors = require('cors')
@@ -8,29 +10,36 @@ const app = express();
 
 app.use(cors())
 
-app.get('/mff', (req, res) => {
-  res.json(mff.mff);
+app.get('/team_info', (req, res) => {
+  //recreation of getting teams info like id:s
+  if (req.query.team == "Liverpool") {
+    res.json(liverpool_info);
+  } else if (req.query.team == "West Ham") {
+    res.json(wh_info);
+  }
+  res.status(400);
 });
 
-app.get('/degen', (req, res) => {
-    res.json(mff.mff);
+app.get('/h2h_info', (req, res) => {
+  //recreation of getting all the info of the latest h2hs
+  res.json(h2h_info);
 });
 
-app.get('/h2h', (req, res) => {
-  // last 5 h2h ids:
-  res.json(h2h.h2h);
+app.get('/game_info', (req, res) => {
+  // recreation of fething game info
+  if (req.query.team == 40) {
+    for (i in h2h_game_info_liverpool) {
+      if (h2h_game_info_liverpool[i].parameters.fixture == req.query.fixture) {
+        res.json(h2h_game_info_liverpool[i]);
+      }
+    }
+  }
+  for (i in h2h_game_info_wh) {
+    if (h2h_game_info_wh[i].parameters.fixture == req.query.fixture) {
+      res.json(h2h_game_info_wh[i]);
+    }
+  }
 });
-
-app.get('/stats', (req, res) => {
-  // stats for team in a game:
-  res.json(stats.game_stat);
-});
-
-app.get('/5latest', (req, res) => {
-  // stats for team in a game:
-  res.json(stats.game_stat);
-});
-
 
 
 app.listen(3000, () => {

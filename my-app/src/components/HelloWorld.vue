@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from 'vue'
 import main_function from './functions'
+import {test_fetchTeamId, test_fetchLast5H2H} from './api_test'
 
 defineProps({
   homeTeam: String,
@@ -19,12 +20,17 @@ let test = ref([]);
 
 async function setValues(team1, team2) {
   console.log("called!");
+  /*
   test = await main_function(team1, team2);
   home.value = test[0];
   guests.value = test[1];
   searched.value = true;
   console.log(home.value);
   console.log(guests.value);
+  */
+  console.log(await test_fetchTeamId(team1));
+  console.log(await test_fetchTeamId(team2));
+  console.log(await test_fetchLast5H2H());
   return
 }
 

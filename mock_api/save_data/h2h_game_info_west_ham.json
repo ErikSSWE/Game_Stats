@@ -1,1 +1,151 @@
-{"get":"fixtures\/statistics","parameters":{"fixture":"868270","team":"48"},"errors":[],"results":1,"paging":{"current":1,"total":1},"response":[{"team":{"id":48,"name":"West Ham","logo":"https:\/\/media-4.api-sports.io\/football\/teams\/48.png"},"statistics":[{"type":"Shots on Goal","value":2},{"type":"Shots off Goal","value":4},{"type":"Total Shots","value":7},{"type":"Blocked Shots","value":1},{"type":"Shots insidebox","value":5},{"type":"Shots outsidebox","value":2},{"type":"Fouls","value":6},{"type":"Corner Kicks","value":3},{"type":"Offsides","value":1},{"type":"Ball Possession","value":"27%"},{"type":"Yellow Cards","value":null},{"type":"Red Cards","value":null},{"type":"Goalkeeper Saves","value":2},{"type":"Total passes","value":311},{"type":"Passes accurate","value":217},{"type":"Passes %","value":"70%"},{"type":"expected_goals","value":"0.80"}]}]}
+[{
+    "get":"fixtures\/statistics",
+    "parameters":{"fixture":"1","team":"40"},
+    "errors":[],
+    "results":1,
+    "paging":{"current":1,"total":1},
+    "response":[
+        {"team":{"id":48,"name":"West Ham",
+        "logo":"https:\/\/media-4.api-sports.io\/football\/teams\/40.png"},
+        "statistics":[
+            {"type":"Shots on Goal","value":1},
+            {"type":"Shots off Goal","value":1},
+            {"type":"Total Shots","value":1},
+            {"type":"Blocked Shots","value":1},
+            {"type":"Shots insidebox","value":1},
+            {"type":"Shots outsidebox","value":1},
+            {"type":"Fouls","value":1},
+            {"type":"Corner Kicks","value":1},
+            {"type":"Offsides","value":1},
+            {"type":"Ball Possession","value":"1%"},
+            {"type":"Yellow Cards","value":null},
+            {"type":"Red Cards","value":null},
+            {"type":"Goalkeeper Saves","value":1},
+            {"type":"Total passes","value":1},
+            {"type":"Passes accurate","value":1},
+            {"type":"Passes %","value":"1%"},
+            {"type":"expected_goals","value":"1"}
+        ]}
+    ]
+},
+{
+    "get":"fixtures\/statistics",
+    "parameters":{"fixture":"2","team":"40"},
+    "errors":[],
+    "results":1,
+    "paging":{"current":1,"total":1},
+    "response":[
+        {"team":{"id":48,"name":"West Ham",
+        "logo":"https:\/\/media-4.api-sports.io\/football\/teams\/40.png"},
+        "statistics":[
+            {"type":"Shots on Goal","value":2},
+            {"type":"Shots off Goal","value":2},
+            {"type":"Total Shots","value":2},
+            {"type":"Blocked Shots","value":2},
+            {"type":"Shots insidebox","value":2},
+            {"type":"Shots outsidebox","value":2},
+            {"type":"Fouls","value":2},
+            {"type":"Corner Kicks","value":2},
+            {"type":"Offsides","value":2},
+            {"type":"Ball Possession","value":"2%"},
+            {"type":"Yellow Cards","value":null},
+            {"type":"Red Cards","value":null},
+            {"type":"Goalkeeper Saves","value":2},
+            {"type":"Total passes","value":2},
+            {"type":"Passes accurate","value":2},
+            {"type":"Passes %","value":"2%"},
+            {"type":"expected_goals","value":"2"}
+        ]}
+    ]
+},
+{
+    "get":"fixtures\/statistics",
+    "parameters":{"fixture":"3","team":"40"},
+    "errors":[],
+    "results":1,
+    "paging":{"current":1,"total":1},
+    "response":[
+        {"team":{"id":48,"name":"West Ham",
+        "logo":"https:\/\/media-4.api-sports.io\/football\/teams\/40.png"},
+        "statistics":[
+            {"type":"Shots on Goal","value":3},
+            {"type":"Shots off Goal","value":3},
+            {"type":"Total Shots","value":3},
+            {"type":"Blocked Shots","value":3},
+            {"type":"Shots insidebox","value":3},
+            {"type":"Shots outsidebox","value":3},
+            {"type":"Fouls","value":3},
+            {"type":"Corner Kicks","value":3},
+            {"type":"Offsides","value":3},
+            {"type":"Ball Possession","value":"3%"},
+            {"type":"Yellow Cards","value":null},
+            {"type":"Red Cards","value":null},
+            {"type":"Goalkeeper Saves","value":3},
+            {"type":"Total passes","value":3},
+            {"type":"Passes accurate","value":3},
+            {"type":"Passes %","value":"3%"},
+            {"type":"expected_goals","value":"3"}
+        ]}
+    ]
+},
+{
+    "get":"fixtures\/statistics",
+    "parameters":{"fixture":"4","team":"40"},
+    "errors":[],
+    "results":1,
+    "paging":{"current":1,"total":1},
+    "response":[
+        {"team":{"id":48,"name":"West Ham",
+        "logo":"https:\/\/media-4.api-sports.io\/football\/teams\/40.png"},
+        "statistics":[
+            {"type":"Shots on Goal","value":4},
+            {"type":"Shots off Goal","value":4},
+            {"type":"Total Shots","value":4},
+            {"type":"Blocked Shots","value":4},
+            {"type":"Shots insidebox","value":4},
+            {"type":"Shots outsidebox","value":4},
+            {"type":"Fouls","value":4},
+            {"type":"Corner Kicks","value":4},
+            {"type":"Offsides","value":4},
+            {"type":"Ball Possession","value":"4%"},
+            {"type":"Yellow Cards","value":null},
+            {"type":"Red Cards","value":null},
+            {"type":"Goalkeeper Saves","value":4},
+            {"type":"Total passes","value":4},
+            {"type":"Passes accurate","value":4},
+            {"type":"Passes %","value":"4%"},
+            {"type":"expected_goals","value":"4"}
+        ]}
+    ]
+},
+{
+    "get":"fixtures\/statistics",
+    "parameters":{"fixture":"5","team":"40"},
+    "errors":[],
+    "results":1,
+    "paging":{"current":1,"total":1},
+    "response":[
+        {"team":{"id":48,"name":"West Ham",
+        "logo":"https:\/\/media-4.api-sports.io\/football\/teams\/40.png"},
+        "statistics":[
+            {"type":"Shots on Goal","value":5},
+            {"type":"Shots off Goal","value":5},
+            {"type":"Total Shots","value":5},
+            {"type":"Blocked Shots","value":5},
+            {"type":"Shots insidebox","value":5},
+            {"type":"Shots outsidebox","value":5},
+            {"type":"Fouls","value":5},
+            {"type":"Corner Kicks","value":5},
+            {"type":"Offsides","value":5},
+            {"type":"Ball Possession","value":"5"},
+            {"type":"Yellow Cards","value":null},
+            {"type":"Red Cards","value":null},
+            {"type":"Goalkeeper Saves","value":5},
+            {"type":"Total passes","value":5},
+            {"type":"Passes accurate","value":5},
+            {"type":"Passes %","value":"5"},
+            {"type":"expected_goals","value":"5"}
+        ]}
+    ]
+}
+]
