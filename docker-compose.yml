@@ -1,0 +1,9 @@
+services:
+    web:
+        image: ersr/mock_api:0.1
+        ports:
+            - 3000:420
+    front:
+        image: ersr/my_app:0.1
+        ports:
+            - 4000:7000

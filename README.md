@@ -5,8 +5,6 @@
 # Table of contents
 1. [Introduction](#introduction)
 2. [Setup](#setup)
-  1.[locally]("#localsetup")
-  2.
 3. [Test]("#test")
 
 
