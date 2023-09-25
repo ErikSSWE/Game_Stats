@@ -1,5 +1,5 @@
-const api_key = "ecc33badf66036c9face3ae01b3fbdba";
-const base_url = "https://v3.football.api-sports.io";
+const api_key = "hello process.env not working like normal with vite apparently";
+var base_url = 'http://localhost:3000';
 
 async function fetchTeamId(teamName) {
 
