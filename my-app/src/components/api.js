@@ -7,7 +7,8 @@ async function fetchTeamId(teamName) {
 	"method": "GET",
     "headers": {
         'x-rapidapi-host': 'v3.football.api-sports.io',
-        'x-rapidapi-key': `${api_key}`
+        'x-rapidapi-key': `${api_key}`,
+        'Access-Control-Allow-Origin': 'http://localhost:3000'
     }
     })
     .then(response => {
@@ -29,7 +30,8 @@ async function fetchLast5H2H(team1, team2) {
 	"method": "GET",
     "headers": {
         'x-rapidapi-host': 'v3.football.api-sports.io',
-        'x-rapidapi-key': `${api_key}`
+        'x-rapidapi-key': `${api_key}`,
+        'Access-Control-Allow-Origin': 'http://localhost:3000'
     }
     })
     .then(response => {
@@ -51,15 +53,14 @@ async function fetchLast5(team) {
 	"method": "GET",
     "headers": {
         'x-rapidapi-host': 'v3.football.api-sports.io',
-        'x-rapidapi-key': `${api_key}`
+        'x-rapidapi-key': `${api_key}`,
+        'Access-Control-Allow-Origin': 'http://localhost:3000'
     }
     })
     .then(response => {
         return response.json();
     })
     .then((data) => {
-        console.log("fetchLast5");
-        console.log(data.response);
         return data.response;
     })
     .catch(err => {
@@ -79,8 +80,9 @@ async function test_fetch(url) {
     let info = fetch(`${base_url}${url}`, {
         "method": "GET",
         "headers": {
-            'x-rapidapi-host': 'v3.football.api-sports.io',
-            'x-rapidapi-key': `${api_key}`
+        'x-rapidapi-host': 'v3.football.api-sports.io',
+        'x-rapidapi-key': `${api_key}`,
+        'Access-Control-Allow-Origin': 'http://localhost:3000'
         }
         })
         .then(response => {

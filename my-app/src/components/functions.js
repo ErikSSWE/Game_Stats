@@ -28,6 +28,8 @@ async function getLast5H2Hid(info) {
     let ids = [];
     let count = 0;
 
+    console.log(info);
+
     while (count < info.length) {
         ids[count] = info[count].fixture.id;
         count ++;
@@ -56,30 +58,9 @@ async function getGameStats(teamId, gameIds) {
 }
 
 async function main_function(team1, team2) {
-    /*
-    1. team ids from name ✅
-    2. teams last 5 games against eachother ids ✅
-    3. teams stats 5 latest h2h (both teams) ✅
-    4. teams 5 latests games overall ids ✅
-    5 step 3 but not h2h ✅
-    6. save stats in a retrevable state in two arrays that nested
-    team [
-        name: "",
-        id: "",
-        "logo",
-        statsH2H: [[1][2][3][4][5]],
-        stats5l: [[1][2][3][4][5]]
-    ]
-    ex of statsH2H array: :
-    [
-        "corners": x,
-        "yellow cards": x,
-        "Red Cards": x
-    ] ✅
-    */
-
     let team1_info = {};
     let team2_info = {};
+    let five_latest_results = {};
 
     team1_info.name = team1;
     team2_info.name = team2;

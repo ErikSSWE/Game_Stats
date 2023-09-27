@@ -23,6 +23,7 @@ async function setValues(team1, team2) {
   home.value = test[0];
   guests.value = test[1];
   searched.value = true;
+
   console.log(home.value);
   console.log(guests.value);
   return
@@ -32,9 +33,11 @@ async function setValues(team1, team2) {
 
 <template>
   <div>
-    <input v-model="homeTeam" placeholder="Home Team" />
-    <input v-model="GuestTeam" placeholder="Guest Team" />
-    <button @click="setValues(homeTeam , GuestTeam)">Get stats</button>
+    <div v-if="searched == false">
+      <input v-model="homeTeam" placeholder="Home Team" />
+      <input v-model="GuestTeam" placeholder="Guest Team" />
+      <button @click="setValues(homeTeam , GuestTeam)">Get stats</button>
+    </div>
     <table class="my-class" v-if="searched == true">
       <caption> H2H {{ home.name }}</caption>
       <tr>
